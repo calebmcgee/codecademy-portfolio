@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+
+}
+header {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 32px;
+    background-color: lightblue;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-text {
+    display: flex;
+    gap: 40px;
+}
+
+.about-text img {
+    width: 400px;
+    height: 400px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0;
+}
+.links li a {
+    color:black;
+}
+.about-me, .projects, .skills {
+    padding: 32px;
+}
+.project-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 50px;
+    padding: 0;
+}
+
+.project-list li {
+    border: 1px solid black;
+    padding: 16px;
+    display: flex;
+    gap:20px;
+    flex: 1 0 350px;
+    max-width: 350;
+}
+
+.proj-img{
+    height: 150px;
+    width: 150px;
+}
+
+footer {
+    position:fixed;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.skill-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap:30px;
+    padding: 0;
+}
